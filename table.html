@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class = "table-example">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                
+                <th>Введение</th>
+                <th>Биография</th>
+                <th>Интересные факты</th>
+                <th>Основные достижения</th>
+                <th>Список терминов</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Был английским математиком</td>
+                <td>Родился в 1791 году в Лондоне</td>
+                <td>Изобрел спидометр и офтальмоскоп</td>
+                <td>Разностная машина</td>    
+                <td rowspan="3">2</td>
+                
+            </tr>
+            <tr>
+                <td>Философом и инженером</td>
+                <td>Изучал математику в Кембриджском университете</td>
+                <td>Аналитическая машина использовала перфокарты</td>
+                <td>Аналитическая Машина</td>
+                
+            </tr>
+            <tr>
+                <td>известным как "отец компьютеров"</td>
+                <td>стал известен своими теоретическими работами</td>
+                <td colspan="2">был первым человеком, который предложил идею механического компьютера</td>
+                
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="form-example">
+        <label for="login">Введите логин</label><br>
+        <input type="text" id="login" placeholder="Логин": required><br>
+        <label for="pass">Введите пароль</label><br>
+        <input type="password" id="pass" placeholder="Пароль": required><br>
+        <input type="checkbox" id a="agreement">
+        <label for="agreement">Запомнить</label><br>
+
+        <input type="radio" id="male" name = gender checked>
+        <label for="male">м</label>
+        <input type="radio" id="female" name = gender>
+        <label for="female">ж</label><br>
+
+        <input type="submit" value="Войти">
+
+    </form>
+   
+</style>
+</head>
+<body>
+
+
+
+
+
+
+</body>
+</html>

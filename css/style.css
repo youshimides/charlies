@@ -1,0 +1,377 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2em;
+}
+h1,h2,h3{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.about{
+    background-color:rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-decoration: overline;
+
+}
+p{
+    font-size: 1.25em;
+    line-height: 2rem;
+}
+.avatar{
+    display: block;
+    margin: 0 auto;
+
+}
+.articles{
+    padding: 20px 50px;
+}
+
+
+.articles>a {
+    color:rgb(255, 255, 255);
+}
+
+
+a:link{
+    color:rgb(0, 0, 0);
+}
+
+a:visited{
+    color:rgb(0, 0, 0)
+}
+a:focus{
+    color:blue
+}
+a:hover{
+    color:rgb(91, 134, 199);
+    text-decoration:underline
+}
+
+a:active{
+    color:blueviolet
+}
+.page-list li:nth-child(odd){
+    background-color:rgb(111, 232, 248);
+}
+
+h2::after{
+    
+    font-size: 10px;
+    margin-left: 10 px;
+    color: green;
+}
+h2::before{
+    
+    font-size: 10px;
+    margin-left: 10 px;
+    color: green;
+}
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #12eee3;
+  }
+
+main {
+    margin-top: 50px;
+}
+time {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+kbd {
+    background-color: #333;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+blockquote {
+    font-style: italic;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-left: 5px solid #333;
+    margin: 20px 0;
+}
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.test{
+    display: flex;
+    margin-top: 20px;
+}
+.contenttesttext {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.vazhno::after{
+    content: "важно!";
+    color : rgb(255, 255, 255);
+    border: solid 3px gray;
+    background-color: #000000;
+}
+.vazhno::before{
+    content: "важно!";
+    color : rgb(255, 255, 255);
+    border: solid 3px gray;
+    background-color: #000000;
+}
+.infomation{
+    letter-spacing: none;
+}
+.infomation span{
+    letter-spacing: 3px;
+}
+[lang='en-GB']::before {
+    content: '(In British English) ';
+}   
+  
+footer{
+    border: solid 5px black;
+}
+
+img + p{
+    padding-top: 50px;
+
+}
+
+.table-example{
+    border: 5px red solid;
+    
+}
+.table-example td,
+.table-example th{
+    border: black 1px solid;
+    padding: 10px 20px;
+}
+
+.table-example td:nth-child(3){
+    color:#ff0000;
+    font-weight: bold;
+}
+
+.table-example tr:nth-child(odd){
+    background-color: #12eee3;
+}
+.table-example tr:nth-child(odd) td {
+    border-bottom: 1px solid blue;
+}
+
+#form-example{
+    width: 300px;
+    margin: 20px auto; 
+}
+#form-example input[type = "submit"]
+{
+    background-color: #12eee3;
+    border: 1px darkblue solid;
+    padding: 7px 15px;
+    color: darkblue
+
+}
+#form-example input[type = "submit"]:hover{
+    background-color:  blue;
+    border-radius: 7px ;
+}
+#form-example input[type = "submit"]:disabled{
+    background-color: #000000;
+    color: gray;
+    border: 1px solid gray;
+}
+#form-example input[type='text']
+#form-example input[type='password']
+{
+    background-color: lavender;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;
+}
+#form-example input[type='text']:hover
+#form-example input[type='password']:hover{
+    background-color: lavender;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+p::first-line {
+    letter-spacing: 3px;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-decoration: overline;
+
+}
+
+
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input[type="tel"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contact-form select {
+    border: white solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contact-form textarea {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input[type="submit"] {
+    width: 200px;
+    padding: 10px 30px;
+    border: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#contact-form input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+/**/
+table {
+    border: 3px black solid;
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    border: 1px black solid;
+    padding: 10px 20px;
+}
+
+.table tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.table th:nth-child(1) {
+    color: black;
+
+}
+
+.table tr:nth-child(5) {
+    color: black;
+
+}
+
+.table td:nth-child(1) {
+    color: black;
+    font-weight: bolder;
+}
+
+tr{
+    margin-top: 50px;
+}
+
+tbody{
+    padding-top: 40px;
+}
